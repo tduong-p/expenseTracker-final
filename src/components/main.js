@@ -46,18 +46,7 @@ function Main() {
        
         <br></br>
 
-        <div className="container">
-          <div className="row">
-            <div className="col-6">
-              
-            </div>
-          </div>
-        </div>
-
         <br></br>
-        <div className="container">
-          <div className="row"></div>
-        </div>
       </AppProvider>
     </BudgetProvider>
   );
