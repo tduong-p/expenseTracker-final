@@ -35,13 +35,21 @@ function Main() {
         </div>
         <AddExpense />
         <br></br>
-        <AddBudget />
+        <div className="row">
+          <div className="col">
+          <AddBudget />
+          </div>
+          <div className="col">
+          <PieChart />
+          </div>
+        </div>
+       
         <br></br>
 
         <div className="container">
           <div className="row">
             <div className="col-6">
-              <PieChart />
+              
             </div>
           </div>
         </div>
