@@ -19,7 +19,7 @@ function Main() {
     <BudgetProvider>
       <AppProvider>
         <Header />
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <div className="col">
               <Budget budget={Budget} />
@@ -31,19 +31,23 @@ function Main() {
               <Spent />
             </div>
           </div>
-          <ExpenseList />
+          <div className="row">
+            <div className="offset-1 col-10">
+              <ExpenseList />
+            </div>
+          </div>
         </div>
         <AddExpense />
         <br></br>
         <div className="row">
-          <div className="col">
-          <AddBudget />
+          <div className="offset-1 col-7">
+            <AddBudget />
           </div>
-          <div className="col">
-          <PieChart />
+          <div className="col-3">
+            <PieChart />
           </div>
         </div>
-       
+
         <br></br>
 
         <br></br>
